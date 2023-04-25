@@ -1,0 +1,1 @@
+https://test.pypi.org/project/square-anviks/0.0.2/
