@@ -11,9 +11,9 @@ from typing import Literal
 FONT_SIZE = 6
 LINE_WIDTH = 1
 LINE_ALPHA = 0.6
-DPI = None  # reduce this if it takes too long for the program to finish, must be less than 2 ** 16 / 10
+DPI = 2 ** 15 / 10  # reduce this if it takes too long for the program to finish, must be less than 2 ** 16 / 10
 TEXT_OFFSET = 0, -7  # relative to its marker
-OUTPUT_FILENAME = "mapped_flightsbad.png"
+OUTPUT_FILENAME = "mapped_flights.png"
 
 flights20 = pandas.read_csv("otselennud20.csv", sep=",")
 flights23 = pandas.read_csv("otselennud23.csv", sep=",")
